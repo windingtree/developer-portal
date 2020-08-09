@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+[Winding Tree](https://windingtree.com/) is an open and decentralized marketplace for travel businesses.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Do you want to consume the inventory from the Winding Tree marketplace? You can find the source code for [Glider OTA](https://glider.travel) on GitHub and build your own OTA:
+[windingtree][windingtree-organization] /
+[Glider OTA](https://github.com/windingtree/glider-ota)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Do you want to expose your inventory to the Winding Tree marketplace? You can find the source code for [Glider B2B](https://production.b2b.glider.travel) on GitHub:
+[windingtree][windingtree-organization] /
+[Glider B2B](https://github.com/windingtree/glider-aggregator)
 
 
-[jekyll-organization]: https://github.com/jekyll
+[windingtree-organization]: https://github.com/windingtree
