@@ -18,7 +18,7 @@ plugins:
 collections:
   doc:
     output: true
-    permalink: /:collection/:slug/
+    permalink: /_doc/:slug/
 
 # Define assets
 defaults:
