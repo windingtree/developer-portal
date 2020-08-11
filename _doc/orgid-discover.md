@@ -8,8 +8,8 @@ To find potential partners in the marketplace, one should browse the registered 
 
 There are two ways to find other participants:
 * Using a web browser, Winding Tree hosts a user-friendly interface:
-  * In live environment: https://marketplace.windingtree.com/search
-  * In test environment: https://staging.arbor.fm/search
+  * In live environment: [https://marketplace.windingtree.com/search](https://marketplace.windingtree.com/search)
+  * In test environment: [https://staging.arbor.fm/search](https://staging.arbor.fm/search)
 * Interacting with the Smart Contract directly. This is the recommended approach for developers.
 
 Using the smartcontract, it is possible to:

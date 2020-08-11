@@ -18,7 +18,7 @@ plugins:
 collections:
   doc:
     output: true
-    permalink: /_doc/:slug/
+    permalink: /:collection/:slug/
 
 # Define assets
 defaults:
@@ -39,3 +39,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - README.md

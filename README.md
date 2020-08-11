@@ -1,21 +1,28 @@
----
-layout: page
-title: Index
-permalink: /
----
-Welcome to the Winding Tree developer portal!
+# Developer Portal
 
-Winding Tree is an open ecosystem that aims at facilitating trade between travel suppliers and travel buyers. Winding Tree is leveraging the Ethereum blockchain to provide a trusted environment for all participants to transact.
-
-On this portal, developers will find all required information to get started on Winding Tree, creating their organization then exposing or consuming travel content.
-
-If you see anything missing or unclear, or if you wish to contribute please open an Issue or
-Pull Request on this portal's [Github Repository](https://github.com/windingtree/developer-portal).
+## Purpose
+This repository allows to build the developer portal hosted at: [https://developers.windingtree.com](https://developers.windingtree.com).
 
 
-Here are the initial pointers:
-* Heads-up to the [Architecture](/_doc/architecture) to get the big picture
-* Create your organization using the [Marketplace](https://marketplace.windingtree.com) user interface or [programatically](/_doc/orgid-register).
-* Find other participants to make business with by [exploring](/_doc/orgid-explore) the marketplace.
-* Learn how to [authenticate](/_doc/jwt-create) or [verify authentication](/_doc/jwt-verify)
-* [Book content](/_doc/book) or [pubish your inventory](/_doc/publish-service)
+## Dependencies
+* [Ruby](https://www.ruby-lang.org/)
+* [Jekyll](https://jekyllrb.com/)
+
+
+## Local Development
+1. Clone the repository
+```shell
+git clone https://github.com/windingtree/developer-portal.git
+```
+
+2. Change to the repository's directory:
+```shell
+cd developer-portal
+```
+
+3. Build and launch the server
+```shell
+bundle exec jekyll serve
+```
+
+4. Browser to [http://localhost:4000](http://localhost:4000)
