@@ -12,8 +12,8 @@ On this portal, developers will find all required information to get started on 
 If you see anything missing or unclear, or if you wish to contribute please open an Issue or
 Pull Request on this portal's [Github Repository](https://github.com/windingtree/developer-portal).
 
-
 Here are the initial pointers:
+
 * Heads-up to the [Architecture](/doc/architecture) to get the big picture
 * Create your organization using the [Marketplace](https://marketplace.windingtree.com) user interface or [programatically](/doc/orgid-register).
 * Find other participants to make business with by [exploring](/doc/orgid-explore) the marketplace.

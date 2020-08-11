@@ -5,11 +5,10 @@ slug: architecture
 ---
 
 ### Overview
+
 [Winding Tree](https://windingtree.com/) is a decentralized marketplace for travel businesses. As such, Winding Tree helps participants discover each other and transact automatically without intermediaries.
 
 ![Architecture Overview](/assets/images/architecture-overview.png)
-
-
 
 ### Protocol Stack
 
@@ -43,11 +42,12 @@ The below is the `service` section for Glider Connect in test environment:
 
 ### Authentication
 
-The authentication used in Winding Tree is the OAuth 2.0 Bearer Tokens, as described in RFC6750. 
+The authentication used in Winding Tree is the OAuth 2.0 Bearer Tokens, as described in RFC6750.
 
 The tokens are following the JSON Web Tokens (JWT) standard.
 
 It allows using very standard tools and libraries, for example using CURL:
+
 ```shell
 curl -X GET "<service endpoint + path" \
   -H  "accept: application/json" \
@@ -58,15 +58,16 @@ Using Postman:
 ![Postman Authorization preview](/assets/images/postman-authorization.png)
 
 For guidelines on how to use JWT Tokens, see these dedicated section:
+
 * [How to create a JWT Token?](/doc/jwt-create)
 * [How to verify a JWT Token?](/doc/jwt-verify)
-
 
 ### Data Presentation
 
 The API format is a REST/JSON with the data format enforced using OpenAPI 3.0.
 The schemas are available below:
+
 * [Search and Book API for travel content](https://staging.b2b.glider.travel/api/docs/)
 * [Payment Accounts and Guarantees](https://staging.api.simard.io/api/docs/)
 
-If you would like to propose schema changes or new schemas for other verticals, please open a Issue or Pull request on Github or get in touch!
+If you would like to propose schema changes or new schemas for other travel verticals, please open a Issue or Pull request on Github or get in touch!
