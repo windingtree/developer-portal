@@ -52,7 +52,7 @@ The tokens are following the JSON Web Tokens (JWT) standard.
 It allows using very standard tools and libraries, for example using CURL:
 
 ```shell
-curl -X GET "<service endpoint + path" \
+curl -X GET "<service endpoint and path>" \
   -H  "accept: application/json" \
   -H  "authorization: Bearer <JWT Token>"
 ```

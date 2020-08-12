@@ -3,6 +3,7 @@ layout: default
 title: How to register my organization?
 permalink: /docs/orgid/register/
 parent: Marketplace
+nav_order: 3
 ---
 # How to register an Organization?
 
