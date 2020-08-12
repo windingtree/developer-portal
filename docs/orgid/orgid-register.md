@@ -1,9 +1,10 @@
 ---
 layout: default
-title: How to register an ORGiD?
-slug: orgid-register
-parent: Interacting with ORGiD
+title: How to register my organization?
+permalink: /docs/orgid/register/
+parent: Marketplace
 ---
+# How to register an Organization?
 
 ## Initial Registration
 

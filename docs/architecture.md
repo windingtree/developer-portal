@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Architecture
-slug: architecture
+permalink: /docs/architecture/
 nav_order: 2
 ---
 
 # Architecture
+
 ## Overview
 
 [Winding Tree](https://windingtree.com/) is a decentralized marketplace for travel businesses. As such, Winding Tree helps participants discover each other and transact automatically without intermediaries.
@@ -61,8 +62,8 @@ Using Postman:
 
 For guidelines on how to use JWT Tokens, see these dedicated section:
 
-* [How to create a JWT Token?](/doc/jwt-create)
-* [How to verify a JWT Token?](/doc/jwt-verify)
+* [How to create a JWT Token?](/docs/jwt/create/)
+* [How to verify a JWT Token?](/docs/jwt/verify/)
 
 ## Data Presentation
 
