@@ -17,6 +17,8 @@ plugins:
 # Just-the-docs settings
 logo: "/assets/images/winding-tree-logo.png"
 aux_links:
+  "Winding Tree website":
+    - "//windingtree.com"
   "Winding Tree on GitHub":
     - "//github.com/windingtree"
 aux_links_new_tab: false
