@@ -10,15 +10,25 @@ github_username:  windingtree
 telegram_username:  windingtree
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 
-# Define collection for the documentation page
-collections:
-  doc:
-    output: true
-    permalink: /:collection/:slug/
+# Just-the-docs settings
+logo: "/assets/images/winding-tree-logo.png"
+aux_links:
+  "Winding Tree on GitHub":
+    - "//github.com/windingtree"
+aux_links_new_tab: false
+footer_content: "<a href=\"https://windingtree.com\">Winding Tree</a> developer portal."
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/windingtree/developer-portal"
+gh_edit_branch: "master"
+gh_edit_view_mode: "tree"
+color_scheme: dark
 
 # Define assets
 defaults:

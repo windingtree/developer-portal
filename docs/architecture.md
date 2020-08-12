@@ -1,16 +1,18 @@
 ---
-layout: page
+layout: default
 title: Architecture
 slug: architecture
+nav_order: 2
 ---
 
-### Overview
+# Architecture
+## Overview
 
 [Winding Tree](https://windingtree.com/) is a decentralized marketplace for travel businesses. As such, Winding Tree helps participants discover each other and transact automatically without intermediaries.
 
 ![Architecture Overview](/assets/images/architecture-overview.png)
 
-### Protocol Stack
+## Protocol Stack
 
 Winding Tree uses common standards and open protocols used in other industries. This allows to build fast and re-use libraries existing in most programming languages.
 
@@ -20,7 +22,7 @@ Winding Tree uses common standards and open protocols used in other industries. 
 | Authentication | [JSON Web Tokens](https://tools.ietf.org/html/rfc7519), powered by [ORGiD](https://docs.orgid.tech/) |
 | Data Presentation | REST/JSON [OpenAPI](https://www.openapis.org/) with standadized schemas |
 
-### Networking
+## Networking
 
 To interact with an organization, you will need to gather the connection details.
 The HTTP endpoint for the services is retrieve from the `service` section of the organization's JSON file.
@@ -40,7 +42,7 @@ The below is the `service` section for Glider Connect in test environment:
 ]
 ```
 
-### Authentication
+## Authentication
 
 The authentication used in Winding Tree is the OAuth 2.0 Bearer Tokens, as described in RFC6750.
 
@@ -62,7 +64,7 @@ For guidelines on how to use JWT Tokens, see these dedicated section:
 * [How to create a JWT Token?](/doc/jwt-create)
 * [How to verify a JWT Token?](/doc/jwt-verify)
 
-### Data Presentation
+## Data Presentation
 
 The API format is a REST/JSON with the data format enforced using OpenAPI 3.0.
 The schemas are available below:

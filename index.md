@@ -1,11 +1,15 @@
 ---
-layout: page
-title: Index
+layout: default
+title: Home
 permalink: /
+nav_order: 1
 ---
+
+# Winding Tree Developers Portal
+
 Welcome to the Winding Tree developer portal!
 
-Winding Tree is an open ecosystem that aims at facilitating trade between travel suppliers and travel buyers. Winding Tree is leveraging the Ethereum blockchain to provide a trusted environment for all participants to transact.
+Winding Tree is an open ecosystem that aims at facilitating trade between travel suppliers and travel buyers. Winding Tree is leveraging the Ethereum blockchain to provide a trusted environment for all participants to transact, big or small.
 
 On this portal, developers will find all required information to get started on Winding Tree, creating their organization then exposing or consuming travel content.
 

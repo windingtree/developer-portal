@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: How to find other participant's ORGiD?
 slug: orgid-register
+parent: Interacting with ORGiD
 ---
 
 To find potential partners in the marketplace, one should browse the registered participants.
