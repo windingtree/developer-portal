@@ -21,5 +21,5 @@ Here are the initial pointers:
 * Heads-up to the [Architecture](/docs/architecture/) to get the big picture
 * Create your organization using the [Marketplace](https://marketplace.windingtree.com) user interface or [programatically](/docs/orgid/register/).
 * Find other participants to make business with by [exploring](/docs/orgid/discover/) the marketplace.
-* Learn how to [authenticate](/doc/jwt/create/) or [verify authentication](/doc/jwt/verify/)
+* Learn how to [authenticate](/docs/jwt/create/) or [verify authentication](/docs/jwt/verify/)
 * [Book content](/docs/travel/book/) or [pubish your inventory](/docs/travel/publish/)
