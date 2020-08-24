@@ -42,6 +42,12 @@ bundle exec jekyll serve
 
 Browse to [http://localhost:4000](http://localhost:4000)
 
+When you are ready to publish, you can build the static site which will be made available in the `_site` directory:
+
+```shell
+bundle exec jekyll build
+```
+
 ## Creating Diagrams
 
 [PlantUML](https://plantuml.com/) diagrams can be added thanks to the `https://github.com/Patouche/jekyll-remote-plantuml` plugin.

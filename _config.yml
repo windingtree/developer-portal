@@ -36,7 +36,7 @@ color_scheme: wt
 # PlantUML Plugin settings
 plantuml:
   url:	 'http://www.plantuml.com/plantuml/png/{code}'
-  assets:  '_assets/images/plantuml/'
+  assets:  'assets/images/'
 
 # Define assets
 defaults:
