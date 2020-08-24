@@ -12,6 +12,7 @@ This section describes how to publish travel content on the marketplace.
 Travel content can be published directly by travel suppliers, by technology providers on behalf of suppliers, by travel content aggregators or by travel agencies.
 
 Prequisites:
+
 * [Register your organization](/docs/orgid/register/) in Winding Tree marketplace
 * [Register your banking details](/docs/payment/account/) in Simard to receive payouts
 
@@ -68,15 +69,18 @@ deactivate H
 For the details of the offer creation to comply with, see the [Open API schema](https://staging.b2b.glider.travel/api/docs/#/offers/offersWithSearchCriteria)
 
 A search request from providers contains two main sections:
+
 * `accomodation`: The details of the accomodation criteria
 * `passengers`: The details of the guests
 
 An `accomodation` object is composed of the following keys:
+
 * `location`: Contains a GPS coordinate rectangle, circle or polygon.
 * `arrival`: The desired check-in date and time
 * `departure`: The desired check-out date and time
 
 A `passengers` object is an array of passenger, which contains:
+
 * `type`: The type of passengers (example: ADT, CHD)
 * `count`: The passenger count for this passenger types
 
@@ -104,6 +108,3 @@ else (No)
 endif
 stop
 {% enduml %}
-
-#### Offer Reply
-
