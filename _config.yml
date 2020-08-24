@@ -15,6 +15,11 @@ plugins:
   - jekyll-feed
   - jekyll-remote-plantuml
 
+# PlantUML Plugin settings
+plantuml:
+  url: "http://www.plantuml.com/plantuml/png/{code}"
+  assets:  "/assets/images/"
+
 # Just-the-docs Plugin settings
 logo: "/assets/images/winding-tree-logo.png"
 aux_links:
@@ -32,11 +37,6 @@ gh_edit_repository: "https://github.com/windingtree/developer-portal"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
 color_scheme: wt
-
-# PlantUML Plugin settings
-plantuml:
-  url:	 'http://www.plantuml.com/plantuml/png/{code}'
-  assets:  'assets/images/'
 
 # Define assets
 defaults:

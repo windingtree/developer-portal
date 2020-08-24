@@ -50,7 +50,7 @@ bundle exec jekyll build
 
 ## Creating Diagrams
 
-[PlantUML](https://plantuml.com/) diagrams can be added thanks to the `https://github.com/Patouche/jekyll-remote-plantuml` plugin.
+[PlantUML](https://plantuml.com/) diagrams can be added thanks to the [jekyll-remote-plantuml](https://github.com/Patouche/jekyll-remote-plantuml) plugin.
 
   {% uml %}
   Bob -> Alice : Hello 
