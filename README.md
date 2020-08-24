@@ -55,3 +55,9 @@ bundle exec jekyll build
   {% uml %}
   Bob -> Alice : Hello 
   {% enduml %}
+
+Auto-generated diagrams need to be manually added in static builds:
+
+```shell
+mv assets/images/plantuml _site/assets/images/plantuml
+```
