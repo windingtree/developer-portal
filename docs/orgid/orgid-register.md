@@ -24,8 +24,8 @@ There are two ways to register an ORGiD:
 
 A Travel Business that wishes to participate directly on the Winding Tree ecosystem is represented by a set of two components:
 
-* An ORGiD Identifier: This is a unique 64-bytes hexadecmial string identifier, similar to a registration number provided by a country's business registry. This identifier is normally created by the ORGiD smartcontract automatically, but it can be chosen if is not yet in used.
-* An associated JSON document: This is a machine-readable file that contains all the details of the travel business. It is not stored on the blockchain for performance and costs reasons, but rather hosted by a traditional webserver.
+* _An ORGiD Identifier_: This is a unique 64-bytes hexadecmial string identifier, similar to a registration number provided by a country's business registry. This identifier is normally created by the ORGiD smartcontract automatically, but it can be chosen if is not yet in used.
+* _An associated JSON document_: This is a machine-readable file that contains all the details of the travel business. It is not stored on the blockchain for performance and costs reasons, but rather hosted by a traditional webserver.
 
 The JSON document provides a structured representation of the travel business. It contains elements that can be found in a business registry, enriched with information that allows developers to interact with the business:
 
@@ -52,7 +52,7 @@ For example:
 * [IPFS](https://ipfs.io)
 * CDN / Cloud Hosting provider
 
-The smartcontract allows to provide three external links with your JSON file: one main location and two additional backup locations.
+The smartcontract allows to provide _three_ external links with your JSON file: one main location and two additional backup locations.
 
 ### Creating a Hash
 
