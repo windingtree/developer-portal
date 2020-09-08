@@ -1,11 +1,12 @@
 ---
 layout: default
-title: How to create a guarantee for another participant?
+title: How to handle guarantees amongst participant?
 permalink: /docs/payment/guarantee-create/
 parent: Payments
+nav_order: 3
 ---
 
-# How to create a guarantee for another participant?
+# How to handle guarantees amongst participant?
 
 Providing that a travel buyer has deposited funds on Simard, it can create a guarantee for a travel supplier. The below diagram describes this exchange.
 

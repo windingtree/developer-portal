@@ -1,13 +1,16 @@
 ---
 layout: default
-title: How to access my balance?
+title: How to register an account and access my balance?
 permalink: /docs/payment/balance/
 parent: Payments
+nav_order: 2
 ---
 
-# How to access my balance?
+# How to register an account and access my balance?
 
 Simard Pay maintains the balance of participants on the Winding Tree marketplace. The balances are credited as soon as bank transfers are received, and funds can be withdrawn at any time by the participants.
+
+The API is kept very simple to use as most details required by banking partners are automatically retrieved from the ORGiD profile.
 
 {% uml %}
 title Payment Mechanism Overview

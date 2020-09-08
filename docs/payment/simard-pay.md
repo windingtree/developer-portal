@@ -3,6 +3,7 @@ layout: default
 title: What is Simard Pay?
 permalink: /docs/payment/simard-pay/
 parent: Payments
+nav_order: 1
 ---
 
 # What is Simard Pay?
