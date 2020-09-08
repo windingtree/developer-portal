@@ -34,7 +34,7 @@ Interacting directly with the ORGiD smartcontract allows to create a snapshot of
 
 * _I am an innovative Travel Agency and I want to keep track of all available hotels._
 * _I am a Corporate and I want to keep track of all available airlines._
-* _I am an airline and I want to associate my negotiated rates with the proper Corporate's ORGiD identifier.
+* _I am an airline and I want to associate my negotiated rates with the proper Corporate's ORGiD identifier._
 
 ### Building a cache
 
