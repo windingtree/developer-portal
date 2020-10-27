@@ -16,7 +16,7 @@ Travel content and inventory is not stored on the blockchain, instead travel sup
 Prequisites:
 
 * [Register your organization](/docs/orgid/register/) in Winding Tree marketplace
-* [Register your banking details](/docs/payment/account/) in Simard to receive payouts
+* [Register your banking details](/docs/payment/balance/) in Simard to receive payouts
 
 ## Accomodation providers
 
@@ -88,7 +88,7 @@ deactivate H
 
 API: `POST /offers/search`
 
-For the details of the offer creation to comply with, see the [Open API schema](https://staging.b2b.glider.travel/api/docs/#/offers/offersWithSearchCriteria)
+For the details of the offer creation to comply with, see the [Open API schema](https://production.b2b.glider.travel/api/docs/#/offers/offersWithSearchCriteria)
 
 A search request from providers contains two main sections:
 
@@ -137,7 +137,7 @@ stop
 
 | Business function | Technical Considerations |
 |:------------------|:-------------------------|
-| Retrieve Buyer ORGiD Details | Achieved by [verifying](/docs/jwt/jwt-verify) the provided authentication token and resolving the associated organization. |
+| Retrieve Buyer ORGiD Details | Achieved by [verifying](/docs/jwt/verify/) the provided authentication token and resolving the associated organization. |
 | Buyer acceptance | Using the details of the organization, the travel supplier can check internal business rules (identifier, country, trust level, rate limits, ..) to determine if such buyer is allowed to transact. |
 | Accomodations Match | Using the geographic coordinates of the area provided in the request, the travel supplier determines if there is any matching accommodations in its portefolio.
 | Retrieve availability and rates | The travel supplier retrieves from its internal system (PMS, CRS, CM, ..) the rates and availability to offer. In case of negotiated rates, the supplier can retrieve the proper rates using the organization details. |
