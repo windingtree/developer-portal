@@ -10,6 +10,8 @@ nav_order: 1
 
 Interacting directly with the ORGiD smartcontract let developers freedom to innovate with the Winding Tree marketplace.
 
+Connecting to an Ethereum node is needed only for advanced usages, for simpler usage developers can rather connect to a GraphQL node, see [How to find other participants](docs/orgid-discover).
+
 ## Connect to an Ethereum node
 
 In order to interact with the ORGiD smartcontract, you will need to connect to an Ethereum node.

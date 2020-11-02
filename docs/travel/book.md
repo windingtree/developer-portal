@@ -19,7 +19,6 @@ Prequisites:
 * [Register your banking details](/docs/payment/account/) in Simard and make an initial deposit to cover your expenses
 * [Discover](/docs/orgid/discover) travel suppliers you would like to book
 
-
 Based on the profile of the travel suppliers you want to integrate with, you can either rely on this single partner for all your requests, or you can go one step further and dynamically contact providers depending on your needs and their coverage.
 
 Once you know which travel suppliers you will reach out to, you can integrate their APIs as documented in the [Publish Section](/docs/travel/publish). It is the same API for everyone!

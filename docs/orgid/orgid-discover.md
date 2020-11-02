@@ -22,19 +22,76 @@ Winding Tree hosts a user-friendly interface where it is possible to explore the
 
 You will need to have an Ethereum wallet such as [Metamask](https://metamask.io).
 
-## Using the ORGiD Smartcontract
+## Using a Graph Node
+
+We provide a [subgraph mapping](https://github.com/windingtree/orgid-subgraph) compatible with [The Graph](https://thegraph.com) project, allowing to query a simple GraphQL endpoint.
+
+The hosted playground for this subgraph is available below:
+
+* [Mainnet/production](https://thegraph.com/explorer/subgraph/windingtree/orgid-subgraph)
+* [Ropsten/staging](https://thegraph.com/explorer/subgraph/windingtree/orgid-subgraph-ropsten)
+
+Using this _subgraph_ you can easily explore the content of the marketplace and retrieve the details from Ethereum and IPFS.
+
+Below is an example of GraphQL query:
+
+```graphql
+{
+  organizations(first:3, where:{organizationalUnit_not: null}) {
+    id
+    organizationalUnit {
+      name
+      type
+      address {
+        country
+        locality
+      }
+    }
+    service {
+      serviceEndpoint
+    }
+  }
+}
+```
+
+```graphql
+{
+  "data": {
+    "organizations": [
+      {
+        "id": "0x34dea2f4f739c43af35f6ffa82284d28280997ad26408b9e3d61525ec95b442e",
+        "organizationalUnit": {
+          "address": {
+            "country": "EE",
+            "locality": "Tallinn"
+          },
+          "name": "Glider Travel",
+          "type": [
+            "travel agency"
+          ]
+        },
+        "service": []
+      },
+      [...]
+    ]
+  }
+}
+```
+
+## Implementing your own indexing/caching mechanism
+
+### Use Cases
+
+Interacting directly with the ORGiD smartcontract and ecosystem allows to create a snapshot of all participants at a given time. Since it is ressource extensive, it is typically used to build a cache in the following cases:
+
+* _I am an innovative Travel Agency and I want to keep track of all available hotels along with private data._
+* _I am an airline and I want to associate my negotiated rates with the proper Corporate's ORGiD identifier._
+
+### Using the ORGiD Smartcontract
 
 Using the smartcontract, it is possible to gather all details of the organizations participating to the marketplace.
 
 _Before you start, make sure you are able to [connect to an Ethereum node and have retrieve the contract ABI](/docs/orgid/connect/)._
-
-### Use Cases
-
-Interacting directly with the ORGiD smartcontract allows to create a snapshot of all participants at a given time. Since it is ressource extensive, it is typically used to build a cache in the following cases:
-
-* _I am an innovative Travel Agency and I want to keep track of all available hotels._
-* _I am a Corporate and I want to keep track of all available airlines._
-* _I am an airline and I want to associate my negotiated rates with the proper Corporate's ORGiD identifier._
 
 ### Building a cache
 

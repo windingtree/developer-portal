@@ -20,6 +20,8 @@ To verify a JWT token, the sequence described in the [JWT Creation](/docs/jwt/cr
     + Check that the requesting organization is not a competitor
     + Enforce API rate limits and fair look-to-book ratios to avoid leaking business information
 
+Note that the Public Keys of an organization can be retrieved using the GraphQL node in a single call.
+
 ## Code Examples
 
 ### Using Python
