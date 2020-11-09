@@ -143,7 +143,7 @@ const verifyJWT = async (jwt) => {
     const pubKey = JWK.asKey(
         publicKey.publicKeyPem,
         {
-        'ES256K',
+        alg: 'ES256K',
         use: 'sig'
         }
     );
