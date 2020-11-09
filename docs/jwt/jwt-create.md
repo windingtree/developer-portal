@@ -90,7 +90,7 @@ const createToken = (options) => {
 };
 
 const options = genOptions(
-    privKey,
+    privPem,
     '0x..<your orgid>..',
     '0x..<recipient orgid>..',
     'webserver',
