@@ -154,7 +154,7 @@ const verifyJWT = async (jwt) => {
         pubKey,
         {
             typ: 'JWT',
-            audience: 'replaceWithYourDid'
+            aud: 'replaceWithYourDid'
         }
     );
 
