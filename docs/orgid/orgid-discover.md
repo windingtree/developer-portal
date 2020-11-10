@@ -18,7 +18,7 @@ There are two ways to find other participants:
 Winding Tree hosts a user-friendly interface where it is possible to explore the various organizations participating in the Winding Tree marketplace.
 
 * In live environment: [https://marketplace.windingtree.com/search](https://marketplace.windingtree.com/search)
-* In test environment: [https://staging.arbor.fm/search](https://staging.arbor.fm/search)
+* In test environment: [https://staging.marketplace.windingtree.com/search](https://staging.marketplace.windingtree.com/search)
 
 You will need to have an Ethereum wallet such as [Metamask](https://metamask.io).
 

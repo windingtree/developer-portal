@@ -15,7 +15,7 @@ There are two ways to register an ORGiD:
 
 * Using a web browser, Winding Tree hosts a user-friendly interface:
   * In live environment: [https://marketplace.windingtree.com](https://marketplace.windingtree.com)
-  * In test environment: [https://staging.arbor.fm](https://staging.arbor.fm)
+  * In test environment: [https://staging.marketplace.windingtree.com](https://staging.marketplace.windingtree.com)
 * Interacting with the Smart Contract directly. This is relevant for travel businesses looking to register a large number of organizations (eg: Hotel Chains or Technology Providers).
 
 ## Creating an ORGiD programatically
