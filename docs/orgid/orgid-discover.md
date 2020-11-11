@@ -11,6 +11,7 @@ nav_order: 2
 There are two ways to find other participants:
 
 * Using a User Interface
+* Using a GraphQL Node
 * Interacting with the ORGiD smartcontract
 
 ## Using the Marketplace User Interface
@@ -33,50 +34,7 @@ The hosted playground for this subgraph is available below:
 
 Using this _subgraph_ you can easily explore the content of the marketplace and retrieve the details from Ethereum and IPFS.
 
-Below is an example of GraphQL query:
-
-```graphql
-{
-  organizations(first:3, where:{organizationalUnit_not: null}) {
-    id
-    organizationalUnit {
-      name
-      type
-      address {
-        country
-        locality
-      }
-    }
-    service {
-      serviceEndpoint
-    }
-  }
-}
-```
-
-```graphql
-{
-  "data": {
-    "organizations": [
-      {
-        "id": "0x34dea2f4f739c43af35f6ffa82284d28280997ad26408b9e3d61525ec95b442e",
-        "organizationalUnit": {
-          "address": {
-            "country": "EE",
-            "locality": "Tallinn"
-          },
-          "name": "Glider Travel",
-          "type": [
-            "travel agency"
-          ]
-        },
-        "service": []
-      },
-      [...]
-    ]
-  }
-}
-```
+For detailed explanations, see the dedicated [GraphQL](/docs/orgid/graphql) section.
 
 ## Implementing your own indexing/caching mechanism
 
