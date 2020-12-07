@@ -38,7 +38,7 @@ To interact with the Uniswap exchange, you will need:
 7. If the token you are exchanging requires an approval, you will be invited to approve Uniswap as an authorized spender
 8. Click on Swap and confirm the transaction in your wallet
 
-*Hint*: In the Ropsten test system, Uniswap is also available. Just swith your Ethereum wallet to the Ropsten test system and at step 4 use [this Ropsten-crafted custom list](https://gist.githubusercontent.com/mtahon/40dbb2fd2104a59b6bfa3e896addd287/raw/f16b8dfc023056249a4778828aba2848803d7990/token_list.json)
+*Hint*: In the Ropsten test system, Uniswap is also available. Just switch your Ethereum wallet to the Ropsten test system and at step 4 use [this Ropsten-crafted custom list](https://gist.githubusercontent.com/mtahon/40dbb2fd2104a59b6bfa3e896addd287/raw/f16b8dfc023056249a4778828aba2848803d7990/token_list.json)
 
 ## Using the Lif Faucet in Ropsten test environment
 
