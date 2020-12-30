@@ -5,7 +5,7 @@ permalink: /
 nav_order: 1
 ---
 
-# Winding Tree Developers Portal
+# Winding Tree Developer Portal
 
 Welcome to the Winding Tree developer portal!
 
