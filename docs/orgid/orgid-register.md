@@ -10,13 +10,22 @@ nav_order: 3
 ## Initial Registration
 
 In order to be found on the marketplace, a participant should register on the marketplace and create its own ORGiD.
-
+To know more about ORGiD : https://blog.windingtree.com/everything-you-need-to-know-about-org-id-6c1c6172ae55
 There are two ways to register an ORGiD:
 
 * Using a web browser, Winding Tree hosts a user-friendly interface:
   * In live environment: [https://marketplace.windingtree.com](https://marketplace.windingtree.com)
   * In test environment: [https://staging.marketplace.windingtree.com](https://staging.marketplace.windingtree.com)
 * Interacting with the Smart Contract directly. This is relevant for travel businesses looking to register a large number of organizations (eg: Hotel Chains or Technology Providers).
+## Creating an ORGiD through Marketplace
+You need to have an Ethereum wallet to sign in to the marketplace.If you don't have one already, you can create a wallet on the marketplace and then continue to register ORGiD. <img width="368" alt="image" src="https://user-images.githubusercontent.com/95684171/152492097-cb1eb355-0794-41f5-a768-45f500345a8b.png">
+
+*Visit the marketplace website (live https://marketplace.windingtree.com/ or test env https://staging.marketplace.windingtree.com)
+*Connect your Etherium wallet 
+*Click on the Sign Up Button on the webpage and enter details of your Organization in the form.
+*Once you save your Organization info, you'll need to pay a small registration fee<img width="934" alt="image" src="https://user-images.githubusercontent.com/95684171/152493247-622e8d6b-8599-4349-8ffc-732cc35d8d10.png">
+*Once the fee is paid, yoir organization will become live on the Marketplace.You can then navigate to your Organization Profile and view the ORGiD created.<img width="950" alt="image" src="https://user-images.githubusercontent.com/95684171/152493798-92639574-a2d9-433a-b896-e07927042ea9.png">
+
 
 ## Creating an ORGiD programatically
 
