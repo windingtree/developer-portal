@@ -17,7 +17,7 @@ In the Winding Tree ecosystem, the keys in used are asymetric keys using the `sc
 
 ### using OpenSSL
 
--How to install openSSL on windows: https://www.youtube.com/watch?v=cBa87N_BZ4s
+-How to install openSSL on windows:[video](https://www.youtube.com/watch?v=cBa87N_BZ4s)
 
 After installation of Openssl on your computer, go to search and type cmd to open command prompt.
 Type: Openssl version
