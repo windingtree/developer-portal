@@ -52,12 +52,12 @@ print(verifying_key.to_pem().decode("ascii"))
 
 You can register the created __public__ key with your organization.
 
--Open your Organization on Winding Tree. [Winding Tree Marketplace](https://marketplace.windingtree.com).
--Scroll down and you'll see "Add Public Key" option. Click on it and a form will open.
--In field "Key Type" select secp256k1
--In field "Key in PEM format", enter the public key without any line break.
--In field "unique key ID" enter any ID of your choice and make a note of it (It will be needed while creating the JWT). You can also enter the default value as "webserver".
--Save the form and pay the fee through your Ethereum wallet to complete the proccess.
+1.Open your Organization on Winding Tree. [Winding Tree Marketplace](https://marketplace.windingtree.com).
+2.Scroll down and you'll see "Add Public Key" option. Click on it and a form will open.
+3.In field "Key Type" select secp256k1
+4.In field "Key in PEM format", enter the public key without any line break.
+5.In field "unique key ID" enter any ID of your choice and make a note of it (It will be needed while creating the JWT). You can also enter the default value as "webserver".
+6.Save the form and pay the fee through your Ethereum wallet to complete the proccess.
 ![Add Public Key](https://user-images.githubusercontent.com/95684171/152945176-efc0abfc-fab2-47ad-a5a3-2b5efc7f85e2.png)
 
 
