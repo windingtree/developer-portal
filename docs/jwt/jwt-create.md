@@ -17,6 +17,19 @@ In the Winding Tree ecosystem, the keys in used are asymetric keys using the `sc
 
 ### using OpenSSL
 
+-How to install openSSL on windows:[video](https://www.youtube.com/watch?v=cBa87N_BZ4s)
+
+-After installation of Openssl on your computer, go to search and type cmd to open command prompt.
+```shell
+Openssl version
+openssl ecparam -name secp256k1 -genkey -noout -out secp256k1.pem
+openssl ec -in secp256k1.pem -pubout -out secp256k1.pub
+```
+-This will create two files, File secp256k1.pem containing the private key and file secp256k1.pub containing the public key.
+
+-Now, you can search for the file by filenames and open them in Notepad or VS code to view the key.
+
+Command:
 ```shell
 openssl ecparam -name secp256k1 -genkey -noout -out secp256k1.pem
 openssl ec -in secp256k1.pem -pubout -out secp256k1.pub
@@ -39,7 +52,21 @@ print(verifying_key.to_pem().decode("ascii"))
 
 You can register the created __public__ key with your organization.
 
-The easiest way is to create it from the [Winding Tree Marketplace](https://marketplace.windingtree.com).
+-Open your Organization on Winding Tree. [Winding Tree Marketplace](https://marketplace.windingtree.com).
+
+-Scroll down and you'll see "Add Public Key" option. Click on it and a form will open.
+
+-In field "Key Type" select secp256k1
+
+-In field "Key in PEM format", enter the public key without any line break.
+
+-In field "unique key ID" enter any ID of your choice and make a note of it (It will be needed
+ while creating the JWT). You can also enter the default value as "webserver".
+
+-Save the form and pay the fee through your Ethereum wallet to complete the proccess.
+![Add Public Key](https://user-images.githubusercontent.com/95684171/152945176-efc0abfc-fab2-47ad-a5a3-2b5efc7f85e2.png)
+
+
 
 ## Create a JWT Token
 
@@ -99,7 +126,7 @@ const jwtToken = createToken(options);
 
 console.log(jwtToken);
 ```
-
+Note: Enter your Organization's unique key ID in place of 'webserver' in the above code. You had entered the unique key ID while adding the public key.
 ### Using Python
 
 ```python
