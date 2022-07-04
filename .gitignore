@@ -5,4 +5,11 @@ _site
 vendor
 assets/images/plantuml/*.png
 
+# Vercel configs
 .vercel
+
+# Ruby generated stuff
+.bundle/
+
+# IntelliJ configs
+.idea/
